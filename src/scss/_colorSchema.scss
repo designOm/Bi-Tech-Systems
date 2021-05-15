@@ -1,0 +1,23 @@
+:root{
+    --titleBackground:#f1f700;
+    --grayBorderColor:hsl(0, 0%, 90%);
+    --primaryColor:#003dff;
+    --loginBg:#E3E9FF;
+    --lightBg: #fff;
+    --lightText: rgba(255, 255, 255,0.87);
+}
+
+
+
+$titleBackground: var(--titleBackground);
+$grayBorderColor: var(--grayBorderColor);
+$primaryColor: var(--primaryColor);
+$loginBg: var(--loginBg);
+$lightBg:var(--lightBg);
+$lightText : var(--lightText);
+
+
+
+
+
+

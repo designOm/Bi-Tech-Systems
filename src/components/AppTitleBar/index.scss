@@ -1,0 +1,65 @@
+@import '../../scss/colorSchema';
+$titleBarHeight: 40px;
+
+.appTitleBar{
+    display: flex;
+    height: $titleBarHeight;
+    background-color: $titleBackground;
+    width: 100%;
+    border-bottom: 1px solid $grayBorderColor;
+
+    &__main{
+        flex-basis: 0;
+        flex-grow: 1;
+        -webkit-app-region:drag;
+    }
+    &__utility{
+        width: 150px;
+        display: flex;
+        &--close,&--maximize,&--minimize{
+            width: calc(#{$titleBarHeight} + 10px);
+            height: $titleBarHeight;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border:none;
+            background-color: transparent;
+            cursor: pointer;
+            outline: none!important;
+            -webkit-user-select: none;
+            &:hover{
+                background-color: rgba($color: #ffff, $alpha: 0.3);
+             
+            }
+            img{
+                width: 12px;
+                height: auto;
+            }
+        }
+        &--maximize{
+            .restoreDown{
+                display: inline-block;
+                width: 15px;
+                height: 15px;
+                border: 2px solid #333;
+                border-radius: 3px;
+                position: relative;
+                &::after{
+                    content: '';
+                    position: absolute;
+                    width: 15px;
+                    height: 15px;
+                    border: 2px solid #333;
+                    border-radius: 3px;
+
+                }
+            }
+        }
+        &--close{
+            &:hover{
+                background-color: red;
+                color: white;
+            }
+        }
+    }
+}
