@@ -1,13 +1,13 @@
-## Simple Electron React Boilerplate
+## Simple Dekstop Application Using electron.js
 
-This is a simple boilerplate to get up and running with Electron and React. It is a customized version of [Alex Devero's](https://github.com/alexdevero/electron-react-webpack-boilerplate) repo and is used in my Electron course
+This is My test project. This is a medical facility Managment system. Powered by MongoDB . For using this Click on link[Om Prakash Sah](https://github.com/designOm/Bi-Tech-Systems).
 
 ### Install
 
 #### Clone this repo
 
 ```
-git clone https://github.com/bradtraversy/simple-electron-react.git
+git clone https://github.com/designOm/Bi-Tech-Systems.git
 ```
 
 #### Install dependencies
