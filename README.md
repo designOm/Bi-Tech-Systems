@@ -1,5 +1,7 @@
 ## Desktop Application Using electron.js
 
+![Bi-Tech systems](/assets/logo.png)
+
 This is My Practice project. This is a medical facility Management system. Frontend of this system is baed on React. This is a Desktop application so all server related task is handled in electron Main Process that will run on hosted system. For Database this system is using MongoDb(Remote). For using this Click on link [Om Prakash Sah](https://github.com/designOm/Bi-Tech-Systems).
 
 ### Install
