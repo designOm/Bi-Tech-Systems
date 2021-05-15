@@ -29,6 +29,12 @@ class AppTray extends Tray {
           app.quit()
         },
       },
+      {
+        label:'Open DevTool',
+        click:() => {
+         this.mainWindow.webContents.openDevTools()
+        }
+      }
     ])
 
     this.popUpContextMenu(contextMenu)
